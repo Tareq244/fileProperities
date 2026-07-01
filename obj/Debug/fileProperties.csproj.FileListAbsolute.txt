@@ -1,0 +1,11 @@
+C:\Users\tareq\Desktop\fileProperties\bin\Debug\fileProperties.exe.config
+C:\Users\tareq\Desktop\fileProperties\bin\Debug\fileProperties.exe
+C:\Users\tareq\Desktop\fileProperties\bin\Debug\fileProperties.pdb
+C:\Users\tareq\Desktop\fileProperties\obj\Debug\fileProperties.csproj.AssemblyReference.cache
+C:\Users\tareq\Desktop\fileProperties\obj\Debug\fileProperties.Form1.resources
+C:\Users\tareq\Desktop\fileProperties\obj\Debug\fileProperties.Properties.Resources.resources
+C:\Users\tareq\Desktop\fileProperties\obj\Debug\fileProperties.csproj.GenerateResource.cache
+C:\Users\tareq\Desktop\fileProperties\obj\Debug\fileProperties.csproj.CoreCompileInputs.cache
+C:\Users\tareq\Desktop\fileProperties\obj\Debug\fileProperties.exe
+C:\Users\tareq\Desktop\fileProperties\obj\Debug\fileProperties.pdb
+C:\Users\tareq\Desktop\fileProperties\obj\Debug\fileProperties.exe.config
