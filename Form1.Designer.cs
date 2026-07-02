@@ -33,7 +33,7 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkHidden = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -57,7 +57,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.textName = new System.Windows.Forms.TextBox();
-            this.fileIcon = new System.Windows.Forms.PictureBox();
+            this.mfileIcon = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -66,7 +66,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.fileIcon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mfileIcon)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -85,7 +85,7 @@
             // 
             this.tabPage1.Controls.Add(this.button5);
             this.tabPage1.Controls.Add(this.button4);
-            this.tabPage1.Controls.Add(this.checkBox2);
+            this.tabPage1.Controls.Add(this.checkHidden);
             this.tabPage1.Controls.Add(this.checkBox1);
             this.tabPage1.Controls.Add(this.label13);
             this.tabPage1.Controls.Add(this.label11);
@@ -109,7 +109,7 @@
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.label12);
             this.tabPage1.Controls.Add(this.textName);
-            this.tabPage1.Controls.Add(this.fileIcon);
+            this.tabPage1.Controls.Add(this.mfileIcon);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -138,16 +138,16 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // checkBox2
+            // checkHidden
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(206, 341);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(59, 17);
-            this.checkBox2.TabIndex = 24;
-            this.checkBox2.Text = "Hidden";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.checkHidden.AutoSize = true;
+            this.checkHidden.Location = new System.Drawing.Point(206, 341);
+            this.checkHidden.Name = "checkHidden";
+            this.checkHidden.Size = new System.Drawing.Size(59, 17);
+            this.checkHidden.TabIndex = 24;
+            this.checkHidden.Text = "Hidden";
+            this.checkHidden.UseVisualStyleBackColor = true;
+            this.checkHidden.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox1
             // 
@@ -350,13 +350,14 @@
             this.textName.Size = new System.Drawing.Size(231, 27);
             this.textName.TabIndex = 1;
             // 
-            // fileIcon
+            // mfileIcon
             // 
-            this.fileIcon.Location = new System.Drawing.Point(22, 10);
-            this.fileIcon.Name = "fileIcon";
-            this.fileIcon.Size = new System.Drawing.Size(48, 48);
-            this.fileIcon.TabIndex = 0;
-            this.fileIcon.TabStop = false;
+            this.mfileIcon.Location = new System.Drawing.Point(22, 10);
+            this.mfileIcon.Name = "mfileIcon";
+            this.mfileIcon.Size = new System.Drawing.Size(48, 48);
+            this.mfileIcon.TabIndex = 0;
+            this.mfileIcon.TabStop = false;
+            this.mfileIcon.Click += new System.EventHandler(this.fileIcon_Click);
             // 
             // tabPage2
             // 
@@ -432,7 +433,7 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.fileIcon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mfileIcon)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -451,7 +452,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textName;
-        private System.Windows.Forms.PictureBox fileIcon;
+        private System.Windows.Forms.PictureBox mfileIcon;
         private System.Windows.Forms.TextBox textOpenWith;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label10;
@@ -470,7 +471,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkHidden;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
